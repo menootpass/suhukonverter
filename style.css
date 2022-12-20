@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+*{
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Alegreya Sans SC', monospace, sans-serif,serif;
+}
+body{
+	background: linear-gradient(292deg, rgba(0,0,255,1) 0%, rgba(0,191,255,1) 54%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+
+}
+
+select{
+	border: none;
+	background: transparent;
+}
+
+input{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #000000;
+	margin: 20px;
+}
+.container{
+	background-color: white;
+	width: fit-content;
+	border-radius: 20px;
+}
+
+.tombol{
+	background-color: orange;
+	text-decoration: none;
+	cursor: pointer;
+	margin: 20px;
+	font-size: 40px;
+	width: 40px;
+	border-radius: 20px;
+	display: flex;
+}
+.hasil{
+	flex-direction: row;
+}
+#hasilHitung{
+	width: 145px;
+
+}

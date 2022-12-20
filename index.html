@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Suhu Konverter</title>
+</head>
+<body>
+	<div class="container">
+		<h1 style="display: flex;">Suhu Konverter</h1>
+		<form action="" onchange="hasil()">
+
+			<div class="input">
+				<select name="suhu" id="suhu">
+					<option value="">Pilih</option>
+					<option value="c">Celcius</option>
+					<option value="f">Fahrenheit</option>
+					<option value="k">Kelvin</option>
+					<option value="re">Reamur</option>
+				</select>
+				<input id="input" type="number" placeholder="Nilai">
+			</div>
+			<div class="hasil">
+				<select name="keSuhu" id="keSuhu">
+					<option value="">Pilih</option>
+					<option value="c">Celcius</option>
+					<option value="f">Fahrenheit</option>
+					<option value="k">Kelvin</option>
+					<option value="re">Reamur</option>
+				</select>
+				<div class="tombol">=</div>
+				<div id="hasilHitung">
+					<h3 id="warning"></h3>
+				</div>
+			</div>
+		</form>
+	</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
